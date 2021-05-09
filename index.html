@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>BREAKOUT</title>
+    <meta name="author" content="Ilia Kharkheli" />
+    <link rel="stylesheet" href="style/style.css" type="text/css" />
+
+</head>
+<body>
+    <div class= "show" id = 'load'>
+        <div class= 'name'>BREAKOUT</div>
+        <div class = 'difficulty'>Chose difficulty</div>
+        <div class = 'level' id = "hard">Hard</div>
+        <div class = 'level' id = 'medium'>Medium</div>
+        <div class = 'level' id = 'easy'>Easy</div>
+    </div>
+
+    <canvas id="breakout"></canvas>
+
+    <div class='hide' id ='gameOver' >
+        <img class = 'hide' id="lose" src="images/gameover.png" alt='Game Over' />
+        <div class= "hide" id='win'>
+            <div class='congrats'>CONGRATULATIONS</div>
+            <div class='congrats' id='youWon'>YOU WON</div>
+        </div>
+        <div id='score'></div>
+        <div class='option' id='playAgain'>Play Again</div>
+        <div class='option' id='change'>Change Difficulty</div>
+    </div>
+    <div class='gameWon'>
+    </div>
+
+    <script src="js/params.js"></script>
+    <script src="js/script.js"></script>
+
+
+</body>
+
+
+
+</html>
